@@ -1,0 +1,21 @@
+#listen_wrapper {
+  background-color: white;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerBtnListen {
+  position: fixed;
+  right: 36%;   
+  top: 90%;
+  padding: 5px;
+  background: #ffe;
+  border: 1px solid #333;
+  border-radius: 10px;  
+}	

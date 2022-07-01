@@ -1,0 +1,909 @@
+
+#contFirstPage {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+/*    border: 2px red;*/
+}
+
+/*---Main menu-------------------------------------------------*/
+#contHeader_198 { /* Rectangle 198 */
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF; /*blue;*/
+    z-index: 900;
+    margin-bottom: 0;
+}
+
+#contMainMenu_235 { /* Group 235 */
+/*    position: relative;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    line-height: 140%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;    
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #3C4447;
+    margin: 0;
+}
+
+#contLogo {
+    display: inline;
+    width: 94px;
+    height: 52px;
+    margin-right: 240px;/*100px; */
+    cursor: pointer;
+}    
+
+nav {
+    width: 100%;
+    background-color: #FFFFFF; 
+  }
+  
+nav ul {
+    top: 0;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;    
+    padding: 10px 14px;
+    color: #3C4447;
+    align-items: center;   
+}
+
+/* Rectangle 196 */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top:40px;
+    left: 4px;
+    width: 120px;
+    height: 195px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(59, 179, 189, 0.25);
+    border-radius: 0px 0px 15px 15px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+/* Rectangle 196 */
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 120px;  /*42px;*/
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #3C4447;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 0;
+    font-size: 16px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 0;
+}
+
+img {
+    z-index: -1;
+}
+
+#contLogin {     /* Login */
+  /* Rectangle 90 */
+  width: 52px;
+  height: 40px;
+  position: relative;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #3BB3BD;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+#contLogin:hover {
+  background: #E8F4F5;
+}
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contLoginText { /* Login Text*/
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 140%;
+   text-transform: capitalize;
+   color: #3BB3BD;
+}
+/*----end of Main menu--------------------------------*/
+
+/*---First section on the main page----------------------------*/
+
+/*section1 on Main page */
+#section1MainPage {
+    display: flex; /*block;*/
+    flex-direction: row;
+    justify-content: center;
+    width:   100%;/*400px;*/
+    height: auto; /*700px;*/
+    margin: 0;
+    z-index: 1;
+    background: white;
+    color: #3C4447;
+    min-height: 550px;
+}
+
+/*section1 on Main page for screen size < 880px*/
+#section1MainPage_880 {
+    display: flex; /*block;*/
+    flex-direction: column;
+    align-items: center;
+    width:   100%;/*400px;*/
+    height: auto; /*700px;*/
+    margin: 0;
+    z-index: 1;
+    background: white;
+    color: #3C4447;
+    min-height: 550px;
+}
+/* container of TitleText */
+.contTitleText {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin: 130px 40px 40px 108px;
+}
+
+/* container of TitleText for screen size < 88px*/
+.contTitleText_880 {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin: 10px 5px 40px 30px;
+    margin-bottom: 50px;
+}
+
+/* Title */
+#titleText {
+    right: 0;
+    width: 375px;
+    height: 116px;
+    margin-top: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+    z-index: 1;
+}
+
+/* Detail of titleText */
+#titleTextDetail {
+    width: 375px;
+    margin-top: 30px;
+    right: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    align-items: left;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+    z-index: 1;
+}
+
+/* Group 410 */
+#buttonStartTest {
+    width: 150px;
+    height: 60px;  
+    margin-top: 30px;
+    padding: 0;
+    background: #3BB3BD;
+    border-radius: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(59, 179, 189, 0.25));
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#buttonStartTest:hover {
+    background: #388380;
+}
+
+/*picture: with  PC*/
+#group411_Head {
+    top: 50px;
+    width: 610px;
+    height: 674px;
+    margin-left: 0;    
+    margin-top: 20px;
+    padding: 0;
+}
+
+#imgGroup411Head {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: fill;    
+}
+/*-- end of section 1 Main Page ----------------*/
+
+/*-- section 2 of Main Page -------------------------*/
+/* Rectangle 320 */
+#section2MainPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #E8F6F7;
+    color: black;
+}
+
+/* Title */
+#overview {
+    display: block;
+    width: 192px;
+    height: 68px;
+    margin-top: 123px;
+    margin-bottom: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+}
+
+#contOverview {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1100px;
+    height: auto;
+    margin-bottom: 164px;
+}
+
+/* Rectangle 322 */
+.contOverviewItem {
+    width: 295px;
+    height: 195px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(59, 179, 189, 0.25);
+    border-radius: 15px;
+    margin: 8px;
+    padding: 10px;
+}
+
+/* Items of Overview */
+.titleOverviewItem {
+    width: 48px;
+    height: 28px;
+    margin-top: 18px;
+    margin-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.02em;  
+    color: #414648;
+}
+
+/* Ellipse 12 orandge */
+.ellipseOrangeOverviewItem {
+    width: 70px;
+    height: 70px;
+    margin-left: 73%;
+    margin-top: -30px;
+    background: #FFD0A5;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(255, 208, 165, 0.25);
+    z-index: 1;
+}
+
+/* Ellipse 12 green */
+.ellipseGreenOverviewItem {
+    width: 70px;
+    height: 70px;
+    margin-left: 73%;
+    margin-top: -30px;
+    background: #91DD9A;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(255, 208, 165, 0.25);
+    z-index: 1;
+}
+
+/* Ellipse 12 blue */
+.ellipseBlueOverviewItem {
+    width: 70px;
+    height: 70px;
+    margin-left: 73%;
+    margin-top: -30px;
+    background: #9DD9DE;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(255, 208, 165, 0.25);
+    z-index: 1;
+}
+
+.imgEllipseOverviewItem {
+    width: 34px;
+    height: 31px;
+    margin-top: 26%;
+    margin-left: 30%;
+    z-index: 2;
+}
+
+/* text of EllipseOverviewItem  */
+.textEllipseOverviewItem {  
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 80x;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*-- end of section 2 Main Page ----------------*/
+
+/*-- section 3 of Main Page -------------------------*/
+#section3MainPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    color: black;
+}
+
+
+/* Questions on first page */
+#frequentlyQuestions {
+    width: 569px;
+    height: 68px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+}
+
+/* container of an image and questions Page 1 */
+#contImgQuestions {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    color: black;
+}
+
+/* Group 416 */
+#contImgFrequentlyQuestions {
+    width: 308px;
+    height: 490px;
+    margin-top: 8%;
+}
+
+/* container of questions and answers*/
+#contQuestionsAnswers {
+    width: 600px;
+    height: auto;
+    margin-top: 28px;
+    margin-left: 15px;
+    margin-bottom: 80px;
+
+}
+
+/* container of question and answer   Rectangle 314*/
+.contQuestionAnswer {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(59, 179, 189, 0.25);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/* container of a question */
+.contQuestion {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3BB3BD;
+}
+
+#imgFrequentlyQuestions {
+    width: 100%;/*308px;*/
+    height: 100%;/*490px;*/
+}
+
+/* title of Question */
+.titleQuestion {   
+    width: auto;
+    height: 98px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3BB3BD;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* answer tu question */
+.contAnswer {
+    width: auto;
+    height: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #3C4447;
+    padding: 0px 20px 20px 20px;
+}
+
+/*-- end of section 3 Main Page ----------------*/
+
+/*-- footer of Main Page -------------------------*/
+/*Rectangle 321*/
+#footerMainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background: #414648;
+}
+
+/*---Main footer menu-----------------------------*/
+#menuFooter, #menuFooter2 { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width:  auto;
+    height: auto;
+    margin-top: 60px;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+#TestsFooterMenu, #WordsFooterMenu, #ListenFooterMenu, #PhrasesFooterMenu, #JokesFooterMenu, #StatisticsFooterMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100px;
+    height: auto;
+    margin: 8px 9px 8px 9px;    
+    padding-top: 8px ;
+    padding-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    align-items: left;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#JokesFooterMenu:hover, #StatisticsFooterMenu:hover {
+    color: #ff00ff;
+}
+
+.footerMenu {
+    display: block;
+    padding-left: 10px;
+}    
+
+
+#Test1FooterMenu, #Test2FooterMenu, #Test3FooterMenu, #Test4FooterMenu, #Test5FooterMenu,
+  #SocietyFooterMenu, #SportFooterMenu, #AccommodationFooterMenu, #AppearanceFooterMenu, #PrepositionsFooterMenu, #NatureFooterMenu,
+  #Story1FooterMenu, #Story2FooterMenu, #Story3FooterMenu, #Story4FooterMenu,
+  #GreatingsFooterMenu, #ThrasalVerbsFooter, #PresentationFooter, #SpringFooterMain, #VacationFooterMenu {
+    display: block;
+}
+
+#Test1FooterMenu:hover, #Test2FooterMenu:hover, #Test3FooterMenu:hover, #Test4FooterMenu:hover, #Test5FooterMenu:hover,
+  #SocietyFooterMenu:hover, #SportFooterMenu:hover, #AccommodationFooterMenu:hover, #AppearanceFooterMenu:hover, #PrepositionsFooterMenu:hover, #NatureFooterMenu:hover,
+  #Story1FooterMenu:hover, #Story2FooterMenu:hover, #Story3FooterMenu:hover, #Story4FooterMenu:hover,
+  #GreatingsFooterMenu:hover, #ThrasalVerbsFooter:hover, #PresentationFooter:hover, #SpringFooterMain:hover, #VacationFooterMenu:hover {
+    color: #ff00ff;
+}
+
+
+/* Line 1 */
+#lineFooter {
+    width: 306px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ©2022 english learning tests */
+#markFooter {
+    width: auto;
+    height: 20px;
+    margin-bottom: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+#mailMarkFooter {
+    color: white;
+}
+
+#mailMarkFooter:hover {
+    color: #ff00ff;
+}
+
+/*-- end of the footer of Main Page -------------------------*/
+
+
+/*-- start for short menu -----*/
+
+/* Rectangle 747 */
+#contShortMenu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    height: auto; /*537px;*/
+    background: #FFFFFF;
+    z-index: 900;
+}
+
+/* for short menu*/
+#shortMenu {
+    width: 24px;
+    height: 16px;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+/* img for short menu*/
+#imgShortMenu {
+    width: 24px;
+    height: 16px;
+}
+/* Rectangle 90 */
+#loginButton {
+    box-sizing: border-box;
+    width: 345px;
+    height: 40px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    background: #FFFFFF;
+    border: 1px solid #3BB3BD;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #3BB3BD;
+    cursor: pointer;
+}
+
+
+/*-- end for short menu -----*/
+
+/*---different css for different screen sizes--------------*/
+/* For Mobile: 320 - 540 */
+@media screen and (min-width: 320px) and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+    #contImgFrequentlyQuestions {
+        display: none;
+    }     
+    #contImgQuestions {
+        display: flex;
+        flex-direction: row;/*column;*/
+        /*align-items: center;*/
+        justify-content: center;
+    }
+    /*section1 on Main page */
+    #section1MainPage {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* container of TitleText */
+    .contTitleText {
+        margin-top: 50px; 
+    }
+    /*picture: with  PC*/
+    #group411_Head {
+        width: 345px;
+        height: 320px;
+        margin-bottom: 50px;
+    }
+    /* Questions on first page */
+    #frequentlyQuestions {
+        width: 345px;
+        height: 87px;
+        font-size: 36px;
+    }    
+    /* container of questions and answers*/
+    #contQuestionsAnswers {
+        width: 345px;
+    }   
+    /* for short menu*/
+    #shortMenu {
+        width: 24px;
+    }
+    #contLogo {
+        margin-left: 0px;/*100px; */
+    }    
+    /* Title */
+    #titleText {
+        font-size: 36px;
+    }
+    /* Title */
+    #overview {
+        font-size: 36px;
+    }
+    #contOverview {
+        width: 320px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* for short menu-----------------*/
+    #shortMenu {
+        width: 24px;
+        height: 24px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        float: none;
+        list-style: none;
+        position: relative;
+        width: 80px;
+    }
+    li a {
+        display: block;
+        width: 75px;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+    /* Rectangle 196 */
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        top:10px;
+        left: 100px;
+        width: 140px;
+        height: 195px;
+        padding-left: 0;
+    }
+    nav ul li a {
+        align-items: left;
+        text-align: left;
+        padding-left: 20px;   
+    }
+    #menuFooter, #menuFooter2 { 
+        max-width:  420px;
+    }            
+}
+
+/* For Tablets:  541 - 690 */
+@media screen and (min-width: 541px) and (max-width: 690px) {
+    #contLogo {
+        margin-right: 10px;/*200px; */
+    }     
+    #contImgFrequentlyQuestions {
+        display: none;
+    }     
+    #contImgQuestions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*section1 on Main page */
+    #section1MainPage {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* container of TitleText */
+    .contTitleText {
+        margin-top: 50px; 
+    }
+    /*picture: with  PC*/
+    #group411_Head {
+        width: 345px;
+        height: 320px;
+        margin-bottom: 50px;
+    }
+    /* Questions on first page */
+    #frequentlyQuestions {
+        width: 345px;
+        height: 87px;
+        font-size: 36px;
+    }    
+    /* container of questions and answers*/
+    #contQuestionsAnswers {
+        width: 345px;
+    }
+    #menuFooter, #menuFooter2 { 
+        max-width:  420px;
+    }    
+}
+
+/* For Tablets:  691 - 880 */
+@media screen and (min-width: 691px) and (max-width: 880px) {
+    #contLogo {
+        margin-right: 10px;/*200px; */
+    }     
+    #contImgFrequentlyQuestions {
+        display: none;
+    }     
+    #contImgQuestions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*section1 on Main page */
+    #section1MainPage {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* container of TitleText */
+    .contTitleText {
+        margin-top: 50px; 
+    }
+    /*picture: with  PC*/
+    #group411_Head {
+        width: 345px;
+        height: 320px;
+        margin-bottom: 50px;
+    }
+    /* for short menu*/
+    #shortMenu {
+        width: 24px;
+        margin-left: 600px;
+    }
+    #contOverview {
+        width: 691px;
+    }
+    nav ul li {
+        float: left;
+        list-style: none;
+        position: relative;
+    }
+    #menuFooter, #menuFooter2 { 
+        max-width:  420px;
+    }    
+}
+/* For Tablets:  881 - 960 */
+@media screen and (min-width: 881px) and (max-width: 960px) {
+    #contLogo {
+        margin-right: 140px;/*100px; */
+    }    
+    #contOverview {
+        width: 961px;
+    }
+}
+/* For Tablets:  961 - 1060 */
+@media screen and (min-width: 961px) and (max-width: 1060px) {
+    #contOverview {
+        width: 961px;
+    }
+}

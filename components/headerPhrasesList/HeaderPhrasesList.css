@@ -1,0 +1,15 @@
+.menu_phrases_list {
+	height: 20px; 
+	width:	132px;	
+	border-radius: 5px;
+  	padding-top: 6px;
+  	color: blue;
+  	font-size: 16px;
+	
+}	
+
+.menu_phrases_list:hover  {
+	background-color: yellow;
+	color: red;
+
+}	
